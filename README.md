@@ -8,7 +8,7 @@
 2. Аудио. В конце только аудио формата .wav
 ![Скрин интерфейса с аудио(тут только аудио формата .wav)](https://github.com/hinaichigo-fox/rus-silero-webui/blob/main/aud.jpg)
 
-# Установка.
+# Установка
 ```
 git clone https://github.com/hinaichigo-fox/rus-silero-webui.git
 cd rus-silero-webui
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 python app_aud.py (если хотите получать в конце аудио)
 python app_vid.py (если хотите получать видео-водопад аудио файла в конце)
 ```
-# Ошибки.
+# Ошибки
 если вы пропустили этап создания виртуального окружения( python -m venv venv) то у вас будет ошибка
 ```
  File "C:\Users\Admin/.cache\torch\hub\snakers4_silero-models_master\hubconf.py", line 4, in <module>
@@ -29,7 +29,7 @@ ModuleNotFoundError: No module named 'src.silero'
     from silero import (
 ModuleNotFoundError: No module named 'silero'
 ```
-## Как фиксить?
+# Фикс данной ошибки
 1. Перейдите к папке `.cache\torch\hub\snakers4_silero-models_master` (полный путь см. в выводе об ошибке)
 2. Скопируйте папку silero из каталога src и разместите их в папке проекта
 3. Откройте и отредактируйте файл hubconf.py(этот файл был в папке в пункте 1 НЕ В ПАПКЕ SILERO) следующим образом:

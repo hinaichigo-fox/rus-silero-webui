@@ -24,9 +24,9 @@ python app.py
 ModuleNotFoundError: No module named 'src.silero'
 ```
 ## Как фиксить?
-1. Перейдите к папке .cache\torch\hub\snakers4_silero-models_master (полный путь см. в выводе об ошибке)
-2. Переместите папку silero из каталога src и разместите их в корневом каталоге проекта (так что это похоже на .\snakers4_silero-models_master\silero)
-3. Откройте и отредактируйте файл hubconf.py следующим образом:
+1. Перейдите к папке `.cache\torch\hub\snakers4_silero-models_master` (полный путь см. в выводе об ошибке)
+2. Переместите папку silero из каталога src и разместите их в папке проекта
+3. Откройте и отредактируйте файл hubconf.py(этот файл был в папке в пункте 1 НЕ В ПАПКЕ SILERO) следующим образом:
 ```
 import os
 import sys

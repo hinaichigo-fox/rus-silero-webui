@@ -18,9 +18,11 @@ python app.py
 ```
 # Ошибки.
 если вы пропустили этап создания виртуального окружения( python -m venv venv) то у вас будет ошибка
+```
  File "C:\Users\Admin/.cache\torch\hub\snakers4_silero-models_master\hubconf.py", line 4, in <module>
  from src.silero import (
 ModuleNotFoundError: No module named 'src.silero'
+```
 ## Как фиксить?
 1. Перейдите к папке .cache\torch\hub\snakers4_silero-models_master (полный путь см. в выводе об ошибке)
 2. Переместите папку silero из каталога src и разместите их в корневом каталоге проекта (так что это похоже на .\snakers4_silero-models_master\silero)

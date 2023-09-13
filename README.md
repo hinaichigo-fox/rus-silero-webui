@@ -50,3 +50,12 @@ __all__ = [
 sys.path.append(os.path.dirname(__file__))
 ```
 Ошибка должна исчезнуть!
+
+# Голоса 
+Все идет на самой последней верссии tts v4_ru.
+Есть все доступные русские голоса. 
+1. aidar
+2. baya
+3. kseniya
+4. xenia
+5. eugene

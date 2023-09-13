@@ -23,6 +23,9 @@ python app_vid.py (если хотите получать видео-водоп�
  File "C:\Users\Admin/.cache\torch\hub\snakers4_silero-models_master\hubconf.py", line 4, in <module>
  from src.silero import (
 ModuleNotFoundError: No module named 'src.silero'
+или
+    from silero import (
+ModuleNotFoundError: No module named 'silero'
 ```
 ## Как фиксить?
 1. Перейдите к папке `.cache\torch\hub\snakers4_silero-models_master` (полный путь см. в выводе об ошибке)

@@ -14,7 +14,8 @@ git clone https://github.com/hinaichigo-fox/rus-silero-webui.git
 cd rus-silero-webui
 #тут выбор будет. либо делаете python -m venv venv а потом venv\Scripts\activate либо пропускаете это, но потом возможно будет ошибка(ниже покажу как пофиксить
 pip install -r requirements.txt
-python app.py
+python app_aud.py (если хотите получать в конце аудио)
+python app_vid.py (если хотите получать видео-водопад аудио файла в конце)
 ```
 # Ошибки.
 если вы пропустили этап создания виртуального окружения( python -m venv venv) то у вас будет ошибка

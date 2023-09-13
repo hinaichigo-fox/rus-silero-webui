@@ -63,7 +63,7 @@ def generate(text_input, progress=gr.Progress()):
         audio = torch.cat((audio, sentence_audio))
 
         cur_progress += progress_steps
-        progress(cur_progress, 'Generating Speech')
+        progress(cur_progress, 'Генерация речи')
 
     # Adjust volume
     audio = torch.multiply(audio, float(params['volume'])/100)

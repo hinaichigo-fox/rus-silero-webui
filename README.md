@@ -1,4 +1,4 @@
-# Русское гуи для silero TTS!
+# Русское GUI для silero TTS
 Русскоязычный интерфейс для edge tts 
 Код взят у https://github.com/GhostNaN/silero-webui и локализован мной.
 

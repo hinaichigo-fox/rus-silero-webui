@@ -10,6 +10,8 @@
 
 # Установка
 ```
+Скачайте ffmpeg (гайдов в тырнете полно)
+Добавьте его в пач (path)
 git clone https://github.com/hinaichigo-fox/rus-silero-webui.git
 cd rus-silero-webui
 #тут выбор будет. либо делаете python -m venv venv а потом venv\Scripts\activate либо пропускаете это, но потом возможно будет ошибка(ниже покажу как пофиксить
